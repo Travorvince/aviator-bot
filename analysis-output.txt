@@ -1,0 +1,56 @@
+
+====== AVIATOR HISTORICAL ANALYSIS ======
+Rounds loaded: 394
+Target: 2x
+At or above target: 185
+Below target: 209
+Initial training history: 10
+Out-of-sample rounds: 384
+
+EXPANDING HISTORICAL MAJORITY
+Correct: 203
+Incorrect: 181
+Accuracy: 52.86%
+Precision: 0.00%
+Recall: 0.00%
+F1 Score: 0.00%
+Specificity: 100.00%
+True positives: 0
+True negatives: 203
+False positives: 0
+False negatives: 181
+
+RANDOM BASELINE
+Correct: 199
+Incorrect: 185
+Accuracy: 51.82%
+Precision: 48.84%
+Recall: 46.41%
+F1 Score: 47.59%
+Specificity: 56.65%
+True positives: 84
+True negatives: 115
+False positives: 88
+False negatives: 97
+
+ROLLING LAST FIVE ROUNDS
+Correct: 190
+Incorrect: 194
+Accuracy: 49.48%
+Precision: 46.33%
+Recall: 45.30%
+F1 Score: 45.81%
+Specificity: 53.20%
+True positives: 82
+True negatives: 108
+False positives: 95
+False negatives: 99
+
+====== BASELINE COMPARISON ======
+Expanding majority baseline: 52.86%
+Rolling five-round strategy: 49.48%
+Random baseline: 51.82%
+Rolling vs expanding: -3.39 percentage points
+Rolling vs random: -2.34 percentage points
+================================
+Historical results do not guarantee future outcomes.
