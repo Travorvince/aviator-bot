@@ -1,0 +1,22 @@
+# Environment secrets
+.env
+.env.*
+
+# Dependencies
+node_modules/
+
+# Browser profile and session data
+chrome-profile/
+
+# Backup files
+*.save
+*.save.*
+*.before-login-cleanup
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+aviator-results-backup.csv
